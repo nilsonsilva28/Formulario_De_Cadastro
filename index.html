@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Cadastro</title>
+</head>
+
+
+<body>
+
+        <div class="box">
+
+            <fieldset >
+                
+                <legend class="dado"><b>Formulario de Cadastro</b></legend>
+                
+            <form>
+                
+                <br>
+
+                <fieldset action="">
+                    <legend><b>Dados Pessoais</b></legend>
+                    <br><br>
+
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome Completo</label>   
+                    </div>
+                    
+                    <br>
+
+                    <label>Profissão:</label>
+                            <select>
+                                <option selected disabled> Médico</option>
+                                <option>Dermatologia</option>
+                                <option>Pediatra</option>
+                                <option>Neurologia</option>
+                            </select>
+                    <br>        
+                </fieldset>
+
+                    <br>
+
+                <fieldset>
+                    <legend><b>Localização</b></legend>
+
+                    <br><br>
+
+                    <div class="inputBox">
+                        <input type="text" name="bairro" id="bairro" class="inputUser" required>
+                        <label for="bairro" class="labelInput">Bairro</label>    
+                    </div>
+
+                    <br><br><br>
+
+                    <div class="inputBox">
+                        <input type="text" name="rua/avenida" id="rua/avenida" class="inputUser" required>   
+                        <label for="rua/avenida" class="labelInput">Rua/Avenida</label>
+                    </div>
+                </fieldset>
+
+                    <br>
+
+                <fieldset>
+                    <legend><b>Faixa Etária</b></legend>
+                    <div>
+                        
+                        <input type="radio" name="devweb" value="até 20 anos">até 20 anos<br>
+                        <input type="radio" name="devweb" value="mais de 20 até 30 anos">mais de 20 até 30 anos<br>
+                        <input type="radio" name="devweb" value="mais de 30 até 40 anos">mais de 30 até 40 anos<br>
+                    </div>
+                        
+                    <div>
+                            <input type="radio" name="devweb" value="mais de 40 até 50 anos">mais de 40 até 50 anos<br>
+                            <input type="radio" name="devweb" value="mais de 50 até 60 anos">mais de 50 até 60 anos<br>
+                            <input type="radio" name="devweb" value="mais de 60 anos">mais de 60 anos<br>
+                    </div>   
+                </fieldset>
+                
+                   <br>
+
+                <fieldset>
+                    <legend><b>Esportes que pratica</b></legend>
+                        <input type="checkbox">
+                        <label>Futebol de campo</label><br>
+
+                        <input type="checkbox">
+                        <label>Futsal</label><br>
+
+                        <input type="checkbox">
+                        <label>Volei</label><br>
+
+                        <input type="checkbox">
+                        <label>Baquete</label><br>
+
+                        <input type="checkbox">
+                        <label>Natação</label><br>
+                </fieldset>
+                    
+                    <br>
+
+                <fieldset>
+                    <legend><b>Comentário</b></legend>
+                    <label>Mensagem:</label>
+                    <textarea ></textarea>
+                </fieldset>
+                    
+                    <br>
+
+                <div class="botao">
+                    <button class="submit" type="submit">Enviar</button>
+                    <button class="submit" type="submit">Limpar</button>
+                </div>
+
+            </form>
+
+            </fieldset>
+        </div>
+    
+</body>
+</html>
